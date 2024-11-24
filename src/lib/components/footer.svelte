@@ -1,6 +1,6 @@
-<footer class="bg-neutral-900 text-neutral-100">
+<footer class="bg-neutral-900 text-neutral-200">
 	<div
-		class="mx-auto flex max-w-screen-md flex-col items-center justify-center gap-6 px-5 py-8 md:flex-row md:justify-between md:gap-0"
+		class="mx-auto flex max-w-screen-md flex-col items-center justify-center gap-6 px-4 py-8 md:flex-row md:justify-between md:gap-0"
 	>
 		<p class="text-center md:text-left">
 			© 2024 <span class="font-medium text-lime-500">Muhammad Hafid K</span>. All rights reserved.
