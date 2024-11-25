@@ -2,16 +2,16 @@
 	import BlogCard from '$lib/components/blog-card.svelte';
 
 	const skills = [
-		'Elasticsearch',
+		'Ruby',
 		'Go',
+		'Python',
 		'JavaScript',
+		'Ruby on Rails',
+		'Svelte',
+		'Elasticsearch',
 		'OpenCV',
 		'Postgresql',
-		'Python',
-		'Redis',
-		'Ruby',
-		'Ruby on Rails',
-		'Svelte'
+		'Redis'
 	];
 </script>
 
@@ -106,7 +106,7 @@
 	</div>
 	<div class="mt-20 flex flex-wrap justify-center gap-6 font-mono text-base text-amber-400">
 		{#each skills as skill}
-			<p class="border-b-2 border-amber-400">{skill}</p>
+			<p class="border-b-2 border-amber-400 hover:text-amber-200">{skill}</p>
 		{/each}
 	</div>
 </div>
