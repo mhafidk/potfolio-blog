@@ -20,7 +20,7 @@
 </svelte:head>
 
 <div class="py-16 text-center">
-	<h1 class="my-2 text-4xl font-semibold">
+	<h1 class="my-2 text-4xl font-semibold text-neutral-200">
 		Hi! I'm <span class="font-bold text-lime-500">Hafid</span> 👋🏼
 	</h1>
 	<p class="text-2xl">
@@ -34,7 +34,9 @@
 	</p>
 </div>
 <div class="mt-14">
-	<h2 class="text-2xl font-bold">A Little About <span class="text-lime-500">Me</span></h2>
+	<h2 class="text-2xl font-bold text-neutral-200">
+		A Little About <span class="text-lime-500">Me</span>
+	</h2>
 	<p class="mt-4">
 		I am focused on backend technology, where I design efficient and scalable systems. My expertise
 		includes building robust APIs, crafting optimized queries, and writing high-performance,
@@ -51,7 +53,9 @@
 	>
 </div>
 <div class="mt-24">
-	<h2 class="text-2xl font-bold">Latest Blog <span class="text-lime-500">Posts</span></h2>
+	<h2 class="text-2xl font-bold text-neutral-200">
+		Latest Blog <span class="text-lime-500">Posts</span>
+	</h2>
 	<div class="mb-8 mt-6 grid grid-cols-1 gap-6">
 		<BlogCard />
 		<BlogCard />
@@ -65,7 +69,7 @@
 	>
 </div>
 <div class="mt-24">
-	<h2 class="text-2xl font-bold">Experiences & Tools</h2>
+	<h2 class="text-2xl font-bold text-neutral-200">Experiences & Tools</h2>
 	<div class="mt-6">
 		<ol class="border-s border-neutral-400">
 			<!--First item-->
@@ -111,7 +115,7 @@
 	</div>
 </div>
 <div class="mt-24">
-	<h2 class="text-2xl font-medium" id="contact">Contact</h2>
+	<h2 class="text-2xl font-medium text-neutral-200" id="contact">Contact</h2>
 	<div class="mt-4">
 		<p>
 			Have something to say? Ask a question or just say hi, anything! Feel free to contact me, my
