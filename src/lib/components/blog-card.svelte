@@ -10,7 +10,7 @@
 			class="h-full w-full rounded object-cover transition ease-in-out hover:scale-110"
 		/>
 	</div>
-	<div class="h-1/2 w-full text-center md:h-full md:w-2/3 md:text-left">
+	<div class="h-1/2 w-full text-center md:h-fit md:w-2/3 md:text-left">
 		<a href={`/blog/${post.slug}`} class="text-2xl font-semibold text-lime-500 hover:text-lime-400"
 			>{post.title}</a
 		>
