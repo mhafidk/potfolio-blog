@@ -1,6 +1,9 @@
 <script>
 	import BlogCard from '$lib/components/blog-card.svelte';
 
+	export let data;
+	let posts = data.posts;
+
 	const skills = [
 		'Ruby',
 		'Go',
@@ -57,10 +60,9 @@
 		Latest Blog <span class="text-lime-500">Posts</span>
 	</h2>
 	<div class="mb-8 mt-6 grid grid-cols-1 gap-6">
-		<BlogCard />
-		<BlogCard />
-		<BlogCard />
-		<BlogCard />
+		{#each posts as post}
+			<BlogCard {post} />
+		{/each}
 	</div>
 	<a
 		href="/blog"
