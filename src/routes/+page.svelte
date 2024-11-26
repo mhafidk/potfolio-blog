@@ -45,7 +45,7 @@
 		includes building robust APIs, crafting optimized queries, and writing high-performance,
 		well-tested, maintainable code.
 	</p>
-	<p class="mb-4 mt-2">
+	<p class="mb-10 mt-2">
 		Outside of development, I’m an amateur photographer and a writer. I enjoy blending creativity
 		and logic in both tech and life.
 	</p>
@@ -59,16 +59,18 @@
 	<h2 class="text-2xl font-bold text-neutral-200">
 		Latest Blog <span class="text-lime-500">Posts</span>
 	</h2>
-	<div class="mb-8 mt-6 grid grid-cols-1 gap-6">
+	<div class="mb-16 mt-6 grid grid-cols-1 gap-6">
 		{#each posts as post}
 			<BlogCard {post} />
 		{/each}
 	</div>
-	<a
-		href="/blog"
-		class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
-		>More posts &#8594;</a
-	>
+	<div class="flex justify-center md:justify-start">
+		<a
+			href="/blog"
+			class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
+			>More posts &#8594;</a
+		>
+	</div>
 </div>
 <div class="mt-24">
 	<h2 class="text-2xl font-bold text-neutral-200">Experiences & Tools</h2>
@@ -165,7 +167,7 @@
 		</div>
 	</div>
 </div>
-<div class="mt-48 animate-bounce text-center">
+<div class="mt-48 animate-bounce text-center text-base">
 	<a
 		href="/#"
 		class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
