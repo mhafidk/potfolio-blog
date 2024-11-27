@@ -6,11 +6,11 @@
 </script>
 
 <Header />
-<div class="h-px w-full bg-neutral-600"></div>
-<main class="bg-neutral-900 pb-72 pt-14 text-neutral-300">
-	<div class="mx-auto max-w-screen-md px-4 text-lg">
+<div class="h-px w-full bg-neutral-400"></div>
+<main class="bg-white pb-72 pt-14 text-neutral-900">
+	<div class="mx-auto max-w-screen-lg px-4 text-lg">
 		{@render children()}
 	</div>
 </main>
-<div class="h-px w-full bg-neutral-600"></div>
+<div class="h-px w-full bg-neutral-400"></div>
 <Footer />

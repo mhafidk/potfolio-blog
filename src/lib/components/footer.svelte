@@ -1,15 +1,15 @@
-<footer class="bg-neutral-900 text-neutral-200">
+<footer class="bg-white text-neutral-900">
 	<div
 		class="mx-auto flex max-w-screen-md flex-col items-center justify-center gap-6 px-4 py-8 md:flex-row md:justify-between md:gap-0"
 	>
 		<p class="text-center md:text-left">
-			© 2024 <span class="font-medium text-lime-500">Muhammad Hafid K</span>. All rights reserved.
+			© 2024 <span class="font-medium text-lime-600">Muhammad Hafid K</span>. All rights reserved.
 		</p>
 		<div class="flex gap-6">
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 				<svg
-					class="h-5 w-5 fill-current text-neutral-100 hover:text-lime-600"
+					class="h-5 w-5 fill-current text-neutral-900 hover:text-lime-700"
 					role="img"
 					viewBox="0 0 24 24"
 					xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<a href="https://www.github.com/mhafidk" target="_blank" rel="noreferrer">
 				<svg
-					class="h-5 w-5 fill-current text-neutral-100 hover:text-lime-600"
+					class="h-5 w-5 fill-current text-neutral-900 hover:text-lime-700"
 					role="img"
 					viewBox="0 0 24 24"
 					xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<a href="https://www.linkedin.com/in/mhafidk" target="_blank" rel="noreferrer">
 				<svg
-					class="h-5 w-5 fill-current text-neutral-100 hover:text-lime-600"
+					class="h-5 w-5 fill-current text-neutral-900 hover:text-lime-700"
 					role="img"
 					viewBox="0 0 24 24"
 					xmlns="http://www.w3.org/2000/svg"

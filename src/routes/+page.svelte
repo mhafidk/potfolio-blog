@@ -22,23 +22,23 @@
 	<title>Muhammad Hafid Khoirul</title>
 </svelte:head>
 
-<div class="py-16 text-center">
-	<h1 class="my-2 text-4xl font-semibold text-neutral-200">
-		Hi! I'm <span class="font-bold text-lime-500">Hafid</span> 👋🏼
+<div class="mx-auto max-w-screen-md py-16 text-center">
+	<h1 class="my-2 text-4xl font-semibold">
+		Hi! I'm <span class="font-bold text-lime-600">Hafid</span> 👋🏼
 	</h1>
 	<p class="text-2xl">
 		A <span class="font-medium">software engineer</span> based in Bogor, Indonesia. I'm currently
 		working as a backend engineer at
 		<a
 			href="https://www.qontak.com"
-			class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
+			class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
 			>Qontak</a
 		>.
 	</p>
 </div>
 <div class="mt-14">
-	<h2 class="text-2xl font-bold text-neutral-200">
-		A Little About <span class="text-lime-500">Me</span>
+	<h2 class="text-2xl font-bold">
+		A Little About <span class="text-lime-600">Me</span>
 	</h2>
 	<p class="mt-4">
 		I am focused on backend technology, where I design efficient and scalable systems. My expertise
@@ -51,13 +51,13 @@
 	</p>
 	<a
 		href="/about"
-		class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
+		class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
 		>More about me &#8594;</a
 	>
 </div>
 <div class="mt-24">
-	<h2 class="text-2xl font-bold text-neutral-200">
-		Latest Blog <span class="text-lime-500">Posts</span>
+	<h2 class="text-2xl font-bold">
+		Latest Blog <span class="text-lime-600">Posts</span>
 	</h2>
 	<div class="mb-16 mt-6 grid grid-cols-1 gap-6">
 		{#each posts as post}
@@ -67,13 +67,13 @@
 	<div class="flex justify-center md:justify-start">
 		<a
 			href="/blog"
-			class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
+			class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
 			>More posts &#8594;</a
 		>
 	</div>
 </div>
 <div class="mt-24">
-	<h2 class="text-2xl font-bold text-neutral-200">Experiences & Tools</h2>
+	<h2 class="text-2xl font-bold">Experiences & Tools</h2>
 	<div class="mt-6">
 		<ol class="border-s border-neutral-400">
 			<!--First item-->
@@ -83,12 +83,12 @@
 					<p class="">2020 - Present</p>
 				</div>
 				<div class="mb-6 ms-4 mt-2">
-					<h4 class="mb-1.5 text-xl font-semibold text-lime-500">
+					<h4 class="mb-1.5 text-xl font-semibold text-lime-600">
 						Backend Engineer, <a
 							href="https://www.qontak.com"
 							target="_blank"
 							rel="noreferrer"
-							class="border-b-2 border-lime-500 hover:text-lime-400">Qontak</a
+							class="border-b-2 border-lime-600 hover:text-lime-700">Qontak</a
 						>
 					</h4>
 					<div class="mb-3">
@@ -112,14 +112,16 @@
 			</li>
 		</ol>
 	</div>
-	<div class="mt-20 flex flex-wrap justify-center gap-6 font-mono text-base text-amber-400">
+	<div class="mt-20 flex flex-wrap justify-center gap-6 font-mono text-base text-amber-600">
 		{#each skills as skill}
-			<p class="border-b-2 border-amber-400 hover:text-amber-200">{skill}</p>
+			<p class="border-b-2 border-amber-600 hover:border-amber-700 hover:text-amber-700">
+				{skill}
+			</p>
 		{/each}
 	</div>
 </div>
-<div class="mt-24">
-	<h2 class="text-2xl font-medium text-neutral-200" id="contact">Contact</h2>
+<div class="pt-24" id="contact">
+	<h2 class="text-2xl font-medium">Contact</h2>
 	<div class="mt-4">
 		<p>
 			Have something to say? Ask a question or just say hi, anything! Feel free to contact me, my
@@ -130,7 +132,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current text-neutral-200 hover:text-lime-400"
+						class="h-8 w-8 fill-current hover:text-lime-700"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +144,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.github.com/mhafidk" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current text-neutral-200 hover:text-lime-400"
+						class="h-8 w-8 fill-current hover:text-lime-700"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +156,7 @@
 				<!-- svelte-ignore a11y_consider_explicit_label -->
 				<a href="https://www.linkedin.com/in/mhafidk" target="_blank" rel="noreferrer">
 					<svg
-						class="h-8 w-8 fill-current text-neutral-200 hover:text-lime-400"
+						class="h-8 w-8 fill-current hover:text-lime-700"
 						role="img"
 						viewBox="0 0 24 24"
 						xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +172,7 @@
 <div class="mt-48 animate-bounce text-center text-base">
 	<a
 		href="/#"
-		class="border-b-2 border-lime-500 text-lime-500 hover:border-lime-400 hover:text-lime-400"
+		class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-700 hover:text-lime-700"
 		>Back to top</a
 	>
 </div>
