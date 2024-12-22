@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="flex h-96 flex-col items-center overflow-hidden rounded bg-lime-50 bg-opacity-50 shadow md:h-44 md:flex-row"
+	class="flex h-96 flex-col items-center overflow-hidden rounded border border-lime-300 bg-lime-50 bg-opacity-50 md:h-44 md:flex-row"
 >
 	<div class="h-1/2 w-full overflow-hidden md:h-full md:w-1/3">
 		<img

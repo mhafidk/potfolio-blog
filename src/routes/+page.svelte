@@ -80,7 +80,7 @@
 			<li>
 				<div class="flex-start flex items-center pt-3">
 					<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-neutral-200"></div>
-					<p class="">2020 - Present</p>
+					<p class="font-bold">2020 - Present</p>
 				</div>
 				<div class="mb-6 ms-4 mt-2">
 					<h4 class="mb-1.5 text-xl font-semibold text-lime-600">
