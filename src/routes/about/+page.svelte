@@ -13,7 +13,7 @@
 		</p>
 		<p class="mt-2">
 			I'm a software developer based in Bogor, Indonesia, currently working as a backend engineer at <a
-				class="border-b-2 border-lime-600 text-lime-600 hover:border-lime-600 hover:text-lime-700"
+				class="border-b border-amber-600 text-amber-600 hover:border-amber-600 hover:text-amber-700"
 				href="https://www.qontak.com"
 				target="_blank"
 				rel="norefferer">Qontak</a
