@@ -11,7 +11,7 @@
 	<title>Muhammad Hafid Khoirul</title>
 </svelte:head>
 
-<div class="">
+<div class="leading-relaxed">
 	<div class="">
 		<p class="text-lg">
 			Hi! My name is <span class="font-semibold"

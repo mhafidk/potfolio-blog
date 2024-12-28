@@ -4,7 +4,7 @@
 
 <div class="">
 	<h1 class="text-2xl font-bold">About</h1>
-	<div class="mt-10">
+	<div class="mt-10 leading-relaxed">
 		<p>Hi, how are you? I hope you are fine!</p>
 		<p class="mt-2">
 			My name is <span class="font-medium text-lime-600">Muhammad Hafid Khoirul</span>, people
