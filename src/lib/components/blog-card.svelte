@@ -11,7 +11,9 @@
 		/>
 	</div>
 	<div class="w-full md:w-2/3">
-		<a href={`/blog/${post.slug}`} class="text-lg font-medium hover:text-lime-700">{post.title}</a>
+		<a href={`/blog/${post.slug}`} class="text-lg font-medium text-lime-600 hover:text-lime-700"
+			>{post.title}</a
+		>
 		<p class="mt-2 line-clamp-4 text-neutral-700 md:line-clamp-3">
 			{post.description}
 		</p>
