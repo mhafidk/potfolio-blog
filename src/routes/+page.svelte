@@ -49,7 +49,7 @@
 	</div>
 	<div class="mt-12">
 		<h2 class="text-xl font-semibold">Latest Blog Posts</h2>
-		<div class="mt-3 grid grid-cols-1 gap-8 md:gap-4">
+		<div class="mt-8 grid grid-cols-1 gap-8 md:mt-3 md:gap-4">
 			{#each posts as post}
 				<BlogCard {post} />
 			{/each}
