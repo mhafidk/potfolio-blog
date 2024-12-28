@@ -9,9 +9,9 @@
 	<title>Blog</title>
 </svelte:head>
 
-<div class="h-screen">
-	<h1 class="text-center text-4xl font-bold text-lime-500">Blog</h1>
-	<div class="mb-8 mt-16 grid grid-cols-1 gap-6">
+<div class="">
+	<h1 class="text-2xl font-bold">Blog</h1>
+	<div class="mt-10 grid grid-cols-1 gap-8 md:gap-4">
 		{#each posts as post}
 			<BlogCard {post} />
 		{/each}

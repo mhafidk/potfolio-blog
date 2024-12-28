@@ -1,16 +1,15 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
-	import Header from '$lib/components/header.svelte';
+	import Navbar from '$lib/components/navbar.svelte';
 	import '../app.css';
+
 	let { children } = $props();
 </script>
 
-<Header />
-<div class="h-px w-full bg-neutral-400"></div>
-<main class="bg-white pb-72 pt-14 text-neutral-900">
-	<div class="mx-auto max-w-screen-md px-4 text-lg">
+<main class="bg-white text-neutral-900">
+	<Navbar />
+	<div class="mx-auto max-w-screen-md px-6 py-6 md:py-14">
 		{@render children()}
 	</div>
+	<Footer />
 </main>
-<div class="h-px w-full bg-neutral-400"></div>
-<Footer />
