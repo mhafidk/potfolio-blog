@@ -18,7 +18,7 @@
 			currently working as a <span class="font-bold">backend engineer</span> at
 			<a
 				href="http://www.qontak.com"
-				class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
+				class="border-b border-violet-600 text-violet-600 hover:border-violet-700 hover:text-violet-700"
 				target="_blank"
 				rel="noreferrer">Qontak</a
 			>.
@@ -27,7 +27,7 @@
 	<div class="mt-8">
 		<a
 			href="/about"
-			class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
+			class="border-b border-violet-600 text-violet-600 hover:border-violet-700 hover:text-violet-700"
 			>More about me →</a
 		>
 	</div>
@@ -41,7 +41,7 @@
 		<div class="mt-8">
 			<a
 				href="/about"
-				class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
+				class="border-b border-violet-600 text-violet-600 hover:border-violet-700 hover:text-violet-700"
 				>More posts →</a
 			>
 		</div>
@@ -61,7 +61,7 @@
 								href="https://www.qontak.com"
 								target="_blank"
 								rel="noreferrer"
-								class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
+								class="border-b border-violet-600 text-violet-600 hover:border-violet-700 hover:text-violet-700"
 								>Qontak</a
 							>
 						</h4>

@@ -18,7 +18,7 @@
 		<p class="mt-2 line-clamp-4 md:line-clamp-3">
 			{post.description}
 		</p>
-		<div class="mt-3 flex justify-center gap-4 font-mono text-xs text-amber-600 md:justify-start">
+		<div class="mt-3 flex justify-center gap-4 font-mono text-xs text-violet-600 md:justify-start">
 			{#each post.tags as tag}
 				<p>{tag}</p>
 			{/each}
