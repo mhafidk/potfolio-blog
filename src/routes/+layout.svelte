@@ -8,7 +8,7 @@
 
 <main class="bg-white text-neutral-900">
 	<Navbar />
-	<div class="mx-auto max-w-screen-md px-6 py-6 md:py-14">
+	<div class="mx-auto max-w-screen-sm px-6">
 		{@render children()}
 	</div>
 	<Footer />
