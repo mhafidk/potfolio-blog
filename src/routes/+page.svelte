@@ -3,8 +3,6 @@
 
 	export let data;
 	let posts = data.posts;
-
-	console.log(posts);
 </script>
 
 <svelte:head>
@@ -14,10 +12,10 @@
 <div class="leading-relaxed">
 	<div class="">
 		<p class="text-lg">
-			Hi! My name is <span class="font-semibold"
-				>Muhammad <span class="text-lime-600">Hafid</span> Khoirul</span
-			>. I am a <span class="font-semibold">software engineer</span> based in Bogor, Indonesia. I am
-			currently working as a <span class="font-semibold">backend engineer</span> at
+			Hi! My name is <span class="font-bold"
+				>Muhammad <span class="text-violet-600">Hafid</span> Khoirul</span
+			>. I am a <span class="font-bold">software engineer</span> based in Bogor, Indonesia. I am
+			currently working as a <span class="font-bold">backend engineer</span> at
 			<a
 				href="http://www.qontak.com"
 				class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
@@ -26,35 +24,21 @@
 			>.
 		</p>
 	</div>
-	<div class="mt-12">
-		<h2 class="text-xl font-semibold">A Little About Me</h2>
-		<div class="mt-3 text-neutral-700">
-			<p>
-				I am focused on backend technology, where I design efficient and scalable systems. My
-				expertise includes building robust APIs, crafting optimized queries, and writing
-				high-performance, well-tested, maintainable code.
-			</p>
-			<p class="mt-2">
-				Outside of development, I’m an amateur photographer and a writer. I enjoy blending
-				creativity and logic in both tech and life.
-			</p>
-		</div>
-		<div class="mt-10">
-			<a
-				href="/about"
-				class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
-				>More about me →</a
-			>
-		</div>
+	<div class="mt-8">
+		<a
+			href="/about"
+			class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
+			>More about me →</a
+		>
 	</div>
-	<div class="mt-12">
-		<h2 class="text-xl font-semibold">Latest Blog Posts</h2>
-		<div class="mt-8 grid grid-cols-1 gap-8 md:mt-3 md:gap-4">
+	<div class="mt-24">
+		<h2 class="text-2xl font-bold">Latest Blog Posts</h2>
+		<div class="mt-8 grid grid-cols-1 gap-8 md:mt-6 md:gap-4">
 			{#each posts as post}
 				<BlogCard {post} />
 			{/each}
 		</div>
-		<div class="mt-10">
+		<div class="mt-8">
 			<a
 				href="/about"
 				class="border-b border-amber-600 text-amber-600 hover:border-amber-700 hover:text-amber-700"
@@ -62,8 +46,8 @@
 			>
 		</div>
 	</div>
-	<div class="mt-12">
-		<h2 class="text-xl font-semibold">Experiences & Tools</h2>
+	<div class="mt-24">
+		<h2 class="text-2xl font-bold">Experiences & Tools</h2>
 		<div class="mt-3">
 			<ol class="border-s border-neutral-400">
 				<li>
@@ -72,7 +56,7 @@
 						<p class="font-medium">2020 - Present</p>
 					</div>
 					<div class="mb-6 ms-4 mt-1">
-						<h4 class="mb-1.5 text-lg font-semibold text-lime-600">
+						<h4 class="mb-1.5 text-lg font-semibold text-violet-600">
 							Backend Engineer, <a
 								href="https://www.qontak.com"
 								target="_blank"
@@ -82,7 +66,7 @@
 							>
 						</h4>
 						<div class="mb-3">
-							<ul class="list-outside list-disc pl-8 text-neutral-700">
+							<ul class="list-outside list-disc pl-8">
 								<li>
 									Optimized code performance, resulting in a 50% speed increase, by addressing N+1
 									queries, refining query execution, and strategically employing caching.
@@ -102,7 +86,7 @@
 				</li>
 			</ol>
 		</div>
-		<div class="mt-12">
+		<div class="mt-16">
 			<p align="center">
 				<img
 					class="block md:hidden"
@@ -117,10 +101,10 @@
 			</p>
 		</div>
 	</div>
-	<div class="mt-12">
-		<h2 class="text-xl font-semibold" id="contact">Contact</h2>
+	<div class="mt-24">
+		<h2 class="text-2xl font-bold" id="contact">Contact</h2>
 		<div class="mt-3">
-			<p class="text-neutral-700">
+			<p class="">
 				Have something to say? Ask a question or just say hi, anything! Feel free to contact me, my
 				inbox is always open! You can contact me through one of these platforms!
 			</p>
@@ -129,7 +113,7 @@
 					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a href="mailto:mhafidk@gmail.com" target="_blank" rel="noreferrer">
 						<svg
-							class="h-8 w-8 fill-current hover:text-lime-700"
+							class="h-8 w-8 fill-current hover:text-violet-700"
 							role="img"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +125,7 @@
 					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a href="https://www.github.com/mhafidk" target="_blank" rel="noreferrer">
 						<svg
-							class="h-8 w-8 fill-current hover:text-lime-700"
+							class="h-8 w-8 fill-current hover:text-violet-700"
 							role="img"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +137,7 @@
 					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a href="https://www.linkedin.com/in/mhafidk" target="_blank" rel="noreferrer">
 						<svg
-							class="h-8 w-8 fill-current hover:text-lime-700"
+							class="h-8 w-8 fill-current hover:text-violet-700"
 							role="img"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"

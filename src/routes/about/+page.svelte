@@ -3,17 +3,17 @@
 </svelte:head>
 
 <div class="">
-	<h1 class="text-2xl font-bold">About</h1>
+	<h1 class="mt-6 text-2xl font-bold">About</h1>
 	<div class="mt-10 leading-relaxed">
 		<p>Hi, how are you? I hope you are fine!</p>
 		<p class="mt-2">
-			My name is <span class="font-medium text-lime-600">Muhammad Hafid Khoirul</span>, people
+			My name is <span class="font-medium text-violet-600">Muhammad Hafid Khoirul</span>, people
 			usually call me
-			<span class="font-medium text-lime-600">Hafid</span>.
+			<span class="font-medium text-violet-600">Hafid</span>.
 		</p>
 		<p class="mt-2">
 			I'm a software developer based in Bogor, Indonesia, currently working as a backend engineer at <a
-				class="border-b border-amber-600 text-amber-600 hover:border-amber-600 hover:text-amber-700"
+				class="border-b border-violet-600 text-violet-600 hover:border-violet-600 hover:text-violet-700"
 				href="https://www.qontak.com"
 				target="_blank"
 				rel="norefferer">Qontak</a
@@ -25,7 +25,7 @@
 			lot of things, Go, Phoenix, NestJs, etc, love them. Beside web development, I also interested
 			in other fields like computer vision and IoT. Doing small projects in my spare time. My thesis
 			was about computer vision by the way, you can read it <a
-				class="border-b border-amber-600 text-amber-600 hover:border-amber-600 hover:text-amber-700"
+				class="border-b border-violet-600 text-violet-600 hover:border-violet-600 hover:text-violet-700"
 				href="https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/7129"
 				target="_blank"
 				rel="norefferer">here</a
