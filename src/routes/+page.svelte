@@ -52,7 +52,7 @@
 			<ol class="border-s border-neutral-400">
 				<li>
 					<div class="flex-start flex items-center pt-3">
-						<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-neutral-500"></div>
+						<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-violet-700"></div>
 						<p class="font-medium">2020 - Present</p>
 					</div>
 					<div class="mb-6 ms-4 mt-1">
