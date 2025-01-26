@@ -5,7 +5,7 @@
 <div class="flex h-fit flex-col items-center gap-4 md:h-40 md:flex-row">
 	<div class="block h-2/3 w-full overflow-hidden md:h-full md:w-1/3">
 		<img
-			class="h-48 w-full rounded object-cover transition ease-in-out hover:scale-110 md:h-full"
+			class="h-48 w-full rounded-sm object-cover transition ease-in-out hover:scale-110 md:h-full"
 			src={post.coverImage.url}
 			alt={post.title}
 		/>
