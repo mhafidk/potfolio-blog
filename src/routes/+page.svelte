@@ -32,7 +32,7 @@
 		>
 	</div>
 	<div class="mt-24">
-		<h2 class="text-2xl font-bold">Latest Blog Posts</h2>
+		<h2 class="font-mono text-2xl font-bold">Latest Blog Posts</h2>
 		<div class="mt-8 grid grid-cols-1 gap-8 md:mt-6 md:gap-4">
 			{#each posts as post}
 				<BlogCard {post} />
@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="mt-24">
-		<h2 class="text-2xl font-bold">Experiences & Tools</h2>
+		<h2 class="font-mono text-2xl font-bold">Experiences & Tools</h2>
 		<div class="mt-3">
 			<ol class="border-s border-neutral-400">
 				<li>
@@ -55,7 +55,7 @@
 						<div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-violet-700"></div>
 						<p class="font-medium">2020 - Present</p>
 					</div>
-					<div class="mb-6 ms-4 mt-1">
+					<div class="ms-4 mt-1 mb-6">
 						<h4 class="mb-1.5 text-lg font-semibold text-violet-600">
 							Backend Engineer, <a
 								href="https://www.qontak.com"
@@ -102,7 +102,7 @@
 		</div>
 	</div>
 	<div class="mt-24">
-		<h2 class="text-2xl font-bold" id="contact">Contact</h2>
+		<h2 class="font-mono text-2xl font-bold" id="contact">Contact</h2>
 		<div class="mt-3">
 			<p class="">
 				Have something to say? Ask a question or just say hi, anything! Feel free to contact me, my

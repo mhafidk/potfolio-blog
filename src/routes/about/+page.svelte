@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="">
-	<h1 class="mt-6 text-2xl font-bold">About</h1>
+	<h1 class="mt-6 font-mono text-2xl font-bold">About</h1>
 	<div class="mt-10 leading-relaxed">
 		<p>Hi, how are you? I hope you are fine!</p>
 		<p class="mt-2">

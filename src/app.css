@@ -3,7 +3,8 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-  --font-sans: 'Nunito Sans';
+	--font-sans: 'Nunito Sans';
+	--font-mono: 'JetBrains Mono';
 }
 
 /*
@@ -15,13 +16,13 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
 }
 
 html {
